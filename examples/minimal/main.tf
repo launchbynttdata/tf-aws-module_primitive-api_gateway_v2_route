@@ -11,21 +11,21 @@
 // limitations under the License.
 
 module "api_gateway" {
-  source  = "d2lqlh14iel5k2.cloudfront.net/module_primitive/api_gateway_v2/aws"
+  source  = "terraform.registry.launch.nttdata.com/module_primitive/api_gateway_v2/aws"
   version = "~> 1.0"
 
   name = module.resource_names["api_gateway"].minimal_random_suffix
 }
 
 module "api_gateway_route" {
-  source  = "d2lqlh14iel5k2.cloudfront.net/module_primitive/api_gateway_v2_route/aws"
+  source  = "terraform.registry.launch.nttdata.com/module_primitive/api_gateway_v2_route/aws"
   version = "~> 1.0"
 
   api_id = module.api_gateway.api_gateway_id
 }
 
 module "resource_names" {
-  source  = "d2lqlh14iel5k2.cloudfront.net/module_library/resource_name/launch"
+  source  = "terraform.registry.launch.nttdata.com/module_library/resource_name/launch"
   version = "~> 1.0"
 
   for_each = var.resource_names_map
