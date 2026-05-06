@@ -103,7 +103,7 @@ If `make check` target is successful, developer is good to commit the code to pr
 - runs `conftests`. `conftests` make sure `policy` checks are successful.
 - runs `terratest`. This is integration test suit.
 - runs `opa` tests
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- BEGIN_TF_DOCS -->
 ## Requirements
 
 | Name | Version |
@@ -116,7 +116,7 @@ If `make check` target is successful, developer is good to commit the code to pr
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.72.1 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 6.44.0 |
 
 ## Modules
 
@@ -143,4 +143,4 @@ No modules.
 | <a name="output_api_gateway_route_id"></a> [api\_gateway\_route\_id](#output\_api\_gateway\_route\_id) | Identifier of the Route |
 | <a name="output_api_gateway_route_key"></a> [api\_gateway\_route\_key](#output\_api\_gateway\_route\_key) | Key of the Route |
 | <a name="output_api_gateway_route_target"></a> [api\_gateway\_route\_target](#output\_api\_gateway\_route\_target) | Key of the Route |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- END_TF_DOCS -->
