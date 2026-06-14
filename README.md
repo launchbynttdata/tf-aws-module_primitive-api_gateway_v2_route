@@ -112,12 +112,6 @@ If `make check` target is successful, developer is good to commit the code to pr
 | <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 5.14 |
 | <a name="requirement_random"></a> [random](#requirement\_random) | >= 3.6 |
 
-## Providers
-
-| Name | Version |
-|------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 6.44.0 |
-
 ## Modules
 
 No modules.
